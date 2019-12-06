@@ -7,7 +7,7 @@
 <center>
 Alejandro Gallo
 <br>
-<img style="height: 2em" src="/images/logo.png">
+<img style="height: 2em" src="images/logo.png">
 </center>
 
 ---
