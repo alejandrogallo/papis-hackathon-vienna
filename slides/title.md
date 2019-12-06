@@ -32,6 +32,16 @@ Alejandro Gallo
 
 ---
 
+### Similar projects
+
+* Mendeley
+  <br>
+  <img style="height: 4em" src="images/evil.gif">
+* Zotero
+* Xapers
+
+
+---
 ### Growing community
 
 <img style="" src="images/papis-header.png">
