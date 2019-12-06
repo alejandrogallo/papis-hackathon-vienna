@@ -49,3 +49,7 @@ Alejandro Gallo
 <!-- .slide: data-background="/images/issues.png" -->
 <img style="" src="/images/help.gif">
 
+### Projects
+
+* Implement full text search for pdfs using existing libraries.
+* Join the PyQt5 gui **MeiTingTrunk** and papis.
