@@ -40,193 +40,59 @@
   data-separator-vertical='^--'
   data-markdown>
   <textarea data-template>
-# Title of my talk
+# Papis
+### An open source/open data bibliography manager
+
+<!-- .slide: data-background="#aa5faf" -->
+<!-- .slide: data-transition="concave" -->
 
 <center>
-Fulano mengano
+Alejandro Gallo
+<br>
+<img style="height: 2em" src="images/logo.png">
 </center>
 
 ---
 
-Some other slide within markdown
+### Papis is
 
-And now press the down key...
+<img style="" src="images/example.svg">
 
-
---
-
-<!-- .slide: data-background="#aaffaf" -->
 <!-- .slide: data-transition="concave" -->
-
-<small>
-The Dirac equation in the form originally proposed by Dirac is:
-
-
-$$
-\left(\beta mc^2 + c\left(\sum_{n \mathop =1}^{3}\alpha_n p_n\right)\right) \psi (x,t) = i \hbar \frac{\partial\psi(x,t) }{\partial t}
-$$
-
-and the equation takes the form (remembering the definition
-of the covariant components of the 4-gradient)
-
-$$
-{\displaystyle i\hbar \gamma ^{\mu }\partial _{\mu }\psi -mc\psi =0}
-$$
-
-The complete system is summarized using the Minkowski metric on spacetime in the form
-
-$$
-\\{\gamma ^{\mu },\gamma ^{\nu }\\}=2\eta ^{\mu \nu }I_{4}
-$$
-
-where the bracket expression
-
-$$
-\\{a,b\\}=ab+ba
-$$
-
-</small>
-  </textarea>
-</section>
-<section
-  data-separator='^---'
-  data-separator-vertical='^--'
-  data-markdown>
-  <textarea data-template>
-## Coupled Cluster
-
-The cluster operator
-
-$$
- \hat{T} = t^\mu \hat{\tau}_{\mu}
-$$
-
-gives rise to the famous *Ansatz*
-
-$$
-  \hat{\Psi} = e ^ {\hat{T}}
-$$
-
-
-
 
 ---
 
-# Overview
+### Papis stands for
 
-| Foo | Bar
-|----:|:----
-|  1  |  2
+* owning your data
+  - know exactly what and where your data is
+* simple architecture
+  - every document is just a folder
+* extensibility
+* work in groups
+* play well with other tools (e.g. **git**)
 
+---
 
-- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+### Growing community
+
+<img style="" src="images/papis-header.png">
+
+---
+
+### Growing papis based projects
+
+<!-- .slide: data-background="images/papis-org.png" -->
+
+---
+
+### We need your help
+
+<!-- .slide: data-background="images/issues.png" -->
+<img style="" src="images/help.gif">
+
   </textarea>
 </section>
-<section id="beamer" class="slide level1">
-<h1>Beamer</h1>
-<p>This is a very nice converted beamer slide: <br /><span class="math display">$$\hat{H} \psi = E \psi$$</span><br /> And there is also inline math <span class="math inline">$ \sum_{n=0} ^{\infty} f(n) = 0 $</span>.</p>
-</section>
-<section id="section" class="slide level1">
-<h1></h1>
-<p>Pandoc actually transforms latex documents and not purely beamer documents<br />
-However it does not complain if there is a</p>
-<pre><code>\begin{frame}{title}
-\end{frame}</code></pre>
-<p>environment somewhere</p>
-<p><span class="math inline"><em>e</em><sup><em>e</em><sup><em>e</em><sup><em>e</em><sup><em>e</em><sup><em>e</em><sup><em>e</em></sup></sup></sup></sup></sup></sup></span> <span class="math inline"><em>π</em><sup><em>π</em><sup><em>π</em><sup><em>π</em><sup><em>π</em><sup><em>π</em><sup><em>π</em></sup></sup></sup></sup></sup></sup></span> <span class="math inline"><em>ψ</em><sup><em>ψ</em><sup><em>ψ</em><sup><em>ψ</em><sup><em>ψ</em><sup><em>ψ</em><sup><em>ψ</em></sup></sup></sup></sup></sup></sup></span></p>
-</section>
-<section>
-  <h2>
-    Pure html slide
-  </h2>
-  It is also nice to revive html as a markup language.
-
-  $$
-  \int_{\partial A} f = 0
-  $$
-
-    <pre class="sourceCode latex"><code>
-        \int_{\partial A} f = 0
-    </code></pre>
-</section>
-
-
-<section
-  data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm"
-  data-background-video-loop
-  data-background-video-muted>
-  <h1 style='color:red'>Video background</h1>
-</section>
-
-<section>
-
-  <section
-    data-background="https://media.giphy.com/media/yjMJCtA5AJ6hi/giphy.gif"
-  >
-
-    <h1 style='color:blue'>Gif background</h1>
-    <h3 style='color:red'>Press down key</h3>
-
-  </section>
-
-  <section data-background-color='#ffaa22' data-transition='zoom'>
-
-    <h1>Intro</h1>
-
-<small >
-
-  <p class="fragment grow">grow</p>
-  <p class="fragment shrink">shrink</p>
-  <p class="fragment fade-out">fade-out</p>
-  <p class="fragment fade-up">fade-up (also down, left and right!)</p>
-  <p class="fragment current-visible">visible only once</p>
-  <p class="fragment highlight-current-blue">blue only once</p>
-  <p class="fragment highlight-red">highlight-red</p>
-  <p class="fragment highlight-green">highlight-green</p>
-  <p class="fragment highlight-blue">highlight-blue</p>
-
-</small>
-
-  </section>
-
-<section>
-
-<h1>Formulas !</h1>
-
-\[
-  \hat{T} (\mathbf{a}) =
-   e ^ {\mathbf{a}\cdot\nabla} =
-   e ^ {\frac{i}{\hbar}\mathbf{a}\cdot\hat{\mathbf{p}}}
-\]
-
-
-$$ \iiint_{V} f = 0$$
-
-</section>
-
-<section>
-
-  <h2>Python!</h2>
-
-<pre class="sourceCode python"><code>
-#! /usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-import sys
-import logging
-
-if sys.version_info < (3, 2):
-    raise Exception("This program must use python 3.2 or greater")
-
-if __name__ == "__main__":
-    main()
-</code></pre>
-
-</section>
-</section>
-
-
 <section data-background="https://media.giphy.com/media/wGY9K8upRdJFm/giphy.gif">
   <h1 style='color:white'>Thank you!</h1>
   <img src="https://media.giphy.com/media/LUIvcbR6yytz2/giphy.gif" alt=""/>
