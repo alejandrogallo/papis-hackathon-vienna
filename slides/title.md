@@ -7,14 +7,14 @@
 <center>
 Alejandro Gallo
 <br>
-<img style="height: 2em" src="images/logo.png">
+<img style="height: 2em" src="/images/logo.png">
 </center>
 
 ---
 
 ### Papis is
 
-<img style="" src="images/example.svg">
+<img style="" src="/images/example.svg">
 
 <!-- .slide: data-transition="concave" -->
 
@@ -34,18 +34,18 @@ Alejandro Gallo
 
 ### Growing community
 
-<img style="" src="images/papis-header.png">
+<img style="" src="/images/papis-header.png">
 
 ---
 
 ### Growing papis based projects
 
-<!-- .slide: data-background="images/papis-org.png" -->
+<!-- .slide: data-background="/images/papis-org.png" -->
 
 ---
 
 ### We need your help
 
-<!-- .slide: data-background="images/issues.png" -->
-<img style="" src="images/help.gif">
+<!-- .slide: data-background="/images/issues.png" -->
+<img style="" src="/images/help.gif">
 
