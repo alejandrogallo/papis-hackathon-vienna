@@ -53,24 +53,24 @@ Alejandro Gallo
 
 ### Projects
 
---
+---
 
 * Join the PyQt5 gui **MeiTingTrunk** and papis.
 <img style="" src="images/meitingtrunk.png">
 
---
+---
 * Type check the source code.
 <center>
   <img style="width:50%" src="images/python.png">
 </center>
 
---
+---
 * Improve the terminal user experience.
 <center>
   <img style="width:50%" src="images/prompt.png">
 </center>
 
---
+---
 * Build an **emacs** or improve **vim** interface.
 <center>
   <img style="height: 3em" src="images/emacs.png">
@@ -80,7 +80,7 @@ Alejandro Gallo
   <img style="height: 6em" src="images/hottest.png">
 </center>
 
---
+---
 * Implement full text search for pdfs using existing libraries.
 * Implement a web application, (**vue**, **elm**, **angular**, **purescript**...)
 * If you have more ideas, tell me about it!
